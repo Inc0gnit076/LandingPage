@@ -6,6 +6,8 @@ img{
     background-color: #1f2937;
     font-size: 18px;
     color: #f9faf8;
+    padding-left: 96px;
+    padding-right: 52px;
     
 }
 .leftlogo{
@@ -17,6 +19,7 @@ img{
     flex-direction: row;
     justify-content: space-between;
     padding: 18px;
+    padding-bottom: 96px;
        
 }
 .rightlinks{
@@ -28,7 +31,9 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 18px;
+    padding-bottom: 96px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 .leftside{
     width: 400px;
@@ -58,11 +63,14 @@ ul {
       font-weight: 900px;
       color: #1f2937;
       justify-content: space-around;
+      padding: 36px;
   }
   .container{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;    
+    align-content: space-around;  
+    padding-bottom: 36px; 
+    width: auto; 
   }
   .middlesection{
       display: flex;
@@ -74,4 +82,13 @@ ul {
   .middlesection img{
       width: 200px;
       height: 200px;
+  }
+  button{
+      background-color: #3882f6;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-weight: bold;
+      min-height: 30px;
+      min-width: 96px;
   }
