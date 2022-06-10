@@ -79,6 +79,9 @@ ul {
       justify-content: center;
     
   }
+  .images{
+      flex-wrap: nowrap;
+  }
   .middlesection img{
       width: 200px;
       height: 200px;
